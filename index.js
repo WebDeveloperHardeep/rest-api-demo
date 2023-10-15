@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const db = require("./database"); // include custom common js module
 
 const app = express(); // initiate express app
 
