@@ -1,0 +1,9 @@
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+    "username": "gagan",
+    "password": "test@123"
+}
+# this is request body
+# it is like submit a register form with username and password
