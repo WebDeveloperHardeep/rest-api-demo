@@ -17,6 +17,13 @@ app.get("/", function (req, res) {
   res.send("hellow");
 });
 
+app.post("/login", (req, res) => {
+  const username = req.username;
+  const password = req.password;
+
+  res.send("helo");
+});
+
 app.listen(3000, () => {
   console.log("Server is running on http://localhost:3000");
 });
